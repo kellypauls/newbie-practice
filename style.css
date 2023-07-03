@@ -1,0 +1,136 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(221, 100%, 96%);
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.result {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 3px 16px hsl(241, 100%, 89%);
+  
+}
+
+.left {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: rgb(46,43,233);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.right {
+  width: 50%;
+  padding: 10px 20px;
+  background-color: hsla(0, 0%, 80%, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.score-img {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.left h4 {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  font-size: 1.25rem;
+}
+
+.right h4 {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.great{
+  font-size: 1.25rem;
+  margin-top: 10px;
+  font-weight: 500;
+  color: hsl(221, 100%, 96%);
+}
+.info{
+  color: hsl(241, 100%, 89%);
+  padding: 20px;
+}
+.score-left {
+  padding: 30px;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  background: rgb(36,33,202);
+background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+display: flex;
+justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.score{
+  font-size: 60px;
+}
+.total {
+  color: hsl(241, 100%, 89%);
+}
+
+.scores{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.row{
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+.row p{
+  color: gray;
+}
+
+.row p b{
+  color: black;
+}
+
+.row:nth-child(1){
+  color: hsl(0, 100%, 67%);
+  background: hsla(0, 100%, 67%, 0.1);
+}
+
+.row:nth-child(2) {
+  color: hsl(39, 100%, 56%);
+  background: hsla(39, 100%, 56%, 0.1);
+}
+.row:nth-child(3) {
+  color: hsl(166, 100%, 37%);
+  background: hsla(166, 100%, 37%, 0.1);
+}
+.row:nth-child(4) {
+  color: hsl(234, 85%, 45%);
+  background: hsla(234, 85%, 45%, 0.1);
+}
+
+button {
+  background: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+  padding: 1rem;
+  border-radius: 15px;
+  border: none;
+}
